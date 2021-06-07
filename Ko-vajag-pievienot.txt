@@ -1,0 +1,7 @@
+SLUDINĀJUMĀ VAJADZĒS:
+
+Meistarklases nosaukumu;
+automātiski paņemt pavāra bildi no profila;
+Īso info - Cenu, meistarklases ilgumu; (Reitingu sistēma sākumam laikam ir too complex)
+Meistarklases aprakstu;
+Iesākumā 1 title bildi, kuru var uploadot pie sludinājuma;
