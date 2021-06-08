@@ -15,8 +15,8 @@
     <div class="index-main-box"> <!-- Main background picture -->
 
       <!--<div class="header"><div id="top"><a href="#" class="become-chef-bttn">Become a chef</a></div></div> --><!-- Header -->
-      <img id="main-background-img" src="img/black-board.jpg" alt="">
-        <div id="about-us"><p id="txt"><span style="color:orange;">Hungry</span> for some new cooking <span style="color:orange;">knowledge?</span><br> No worries!<br> Just press this button and hire some amazing people to teach you something new about <span style="color:orange;">cooking</span> and <span style="color:orange;">drinks!</span></p></div>
+      <img id="main-background-img" src="img/wheat.jpg" alt="">
+        <div id="about-us"><p id="txt"><span style="color: rgba(7, 196, 0, 1);">Hungry</span> for some new cooking <span>knowledge?</span><br> No worries!<br> Just press this button and hire some amazing people to teach you something new about <span style="color: rgba(7, 196, 0, 1);">cooking</span> and <span style="color: rgba(7, 196, 0, 1);">drinks!</span></p></div>
         <div class="center"><a href="video-template.php" class="hire-a-chef-bttn">Check out masterclasses</a></div>
     </div>
 
@@ -55,7 +55,7 @@
 
 
     <div class="footer">
-      <div class="leave-a-review"><a id="review" href="#">Leave a review</a></div>
+      <div class="leave-a-review"><a id="review" href="review.php">Leave a review</a></div>
       <div class="footer-socials"></div>
       <div class="made-by"><h2 id="made-by">Made by OneChef from Latvia</h2></div>
     </div>

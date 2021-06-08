@@ -9,7 +9,7 @@
     <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" /> <!-- Tab logo -->
   </head>
   <body>
-    <div id="galvene">Italian pasta</div>
+    <div id="galvene"><div id="logo-box"><a href="index.php"><img src="img/white_logo.png" alt="OneChef logo" id="logo"></div></a>Italian pasta</div>
     <div id="info-par-pavaru">
       <div id="right">
         <ul id="isais-info">
@@ -28,7 +28,7 @@
 
 
   <div class="footer">
-    <div class="leave-a-review"><a id="review" href="#">Leave a review</a></div>
+    <div class="leave-a-review"><a id="review" href="review.php">Leave a review</a></div>
     <div class="footer-socials"></div>
     <div class="made-by"><p id="made-by">Made by OneChef from Latvia</p></div>
   </div>
