@@ -23,7 +23,7 @@ body {
 #logo-box {
   width: 10%;
   height: 15vh;
-  margin-left: 0vw;
+  margin-left: 2vw;
   position: absolute;
   background-color: transparent;
 }
@@ -141,45 +141,59 @@ body {
   height: 35vh;
   position: relative;
   background-color: black;
-  top: 35vh;
+  top: 45vh;
 }
 
-.leave-a-review {
-  width: 20%;
-  height: 15vh;
-  position: relative;
-  background-color: transparent;
-  margin-left: 80%;
-  text-align: center;
-  line-height: 15vh;
-  top: 10vh;
-  font-size: 1.5vw;
+.uli {
+  position: absolute;
+  list-style-type: none;
+  top: 6vh;
+}
+
+.uli li {
+  line-height: 3vw;
 }
 
 #review {
   color: white;
   text-decoration: none;
   font-family:Trebuchet MS;
+  font-size: 1.5vw;
+  margin-left: 3vw;
+  line-height: 0vh;
 }
 
 #review:hover {
   color: grey;
-  text-decoration: none;
-  font-family:Trebuchet MS;
 }
 
 #review:active {
   color: white;
+}
+
+#who {
+  color: white;
   text-decoration: none;
   font-family:Trebuchet MS;
+  font-size: 1.5vw;
+  margin-left: 3vw;
+  line-height: 0vh;
+}
+
+#who:hover {
+  color: grey;
+}
+
+#who:active {
+  color: white;
 }
 
 .made-by {
-  position: relative;
+  position: absolute;
   width: 100%;
   height: auto;
   text-align: center;
-  top: 16.5vh;
+  top: 31.5vh;
   background-color: transparent;
 }
 
@@ -187,10 +201,4 @@ body {
   color: white;
   font-family:Trebuchet MS;
   font-size: 1.4vw;
-}
-
-
-
-.pic-box-wok {
-  display: none;
 }

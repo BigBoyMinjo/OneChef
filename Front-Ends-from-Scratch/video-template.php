@@ -27,11 +27,13 @@
 
 
 
-  <div class="footer">
-    <div class="leave-a-review"><a id="review" href="review.php">Leave a review</a></div>
-    <div class="footer-socials"></div>
-    <div class="made-by"><p id="made-by">Made by OneChef from Latvia</p></div>
-  </div>
+    <div class="footer">
+      <ul class="uli">
+        <li><a id="review" href="review.php">Leave a review</a></li>
+        <li><a id="who" href="who.html" title="Find out">Who are we?</a></li>
+      </ul>
+      <div class="made-by"><h2 id="made-by" title="Did you know that Latvia has one of the fastest internet connections in the world!">Made by OneChef from Latvia</h2></div>
+    </div>
 
   </body>
 </html>

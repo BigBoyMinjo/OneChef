@@ -31,8 +31,10 @@
 
 
     <div class="footer">
-      <div class="footer-socials"></div>
-      <div class="made-by"><p id="made-by">Made by OneChef from Latvia</p></div>
+      <ul class="uli">
+        <li><a id="who" href="who.html" title="Find out">Who are we?</a></li>
+      </ul>
+      <div class="made-by"><h2 id="made-by" title="Did you know that Latvia won the 2002 Eurovision song contest!">Made by OneChef from Latvia</h2></div>
     </div>
   </body>
 </html>

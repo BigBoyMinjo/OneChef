@@ -1,4 +1,3 @@
-
 #galvene {
   position: relative;
   width: 100%;
@@ -25,22 +24,19 @@
   background-color: transparent;
 }
 
-
-
-
-
-
-input[type=text] {
-  width: 40%;
-  height: 30vh;
-  border: 2px solid rgba(186, 186, 186, 1);
-  box-sizing: border-box;
-  padding: 0 0;
-  font-size: 1vw;
+.who {
+  position: relative;
+  width: 50%;
+  height: auto;
+  font-family:Trebuchet MS;
+  background-color: rgba(230, 225, 255, 0.8);
+  font-size: 1.7vw;
+  margin-left: 25%;
+  top: 8vh;
+  text-align: center;
+  border: 1.5px solid black;
+  line-height: 2vw;
 }
-
-
-
 
 
 
@@ -53,7 +49,7 @@ input[type=text] {
   height: 35vh;
   position: relative;
   background-color: black;
-  top: 45vh;
+  top: 20vh;
 }
 
 .uli {
@@ -66,7 +62,7 @@ input[type=text] {
   line-height: 3vw;
 }
 
-#who {
+#review {
   color: white;
   text-decoration: none;
   font-family:Trebuchet MS;
@@ -75,11 +71,11 @@ input[type=text] {
   line-height: 0vh;
 }
 
-#who:hover {
+#review:hover {
   color: grey;
 }
 
-#who:active {
+#review:active {
   color: white;
 }
 

@@ -18,7 +18,7 @@ body {
 }
 
 
-#main-background-img { /*First big background image*/
+#main-background-img-pc { /*First big background image*/
   width: 100%;
   height: 100vh;
   max-height: 100vh;
@@ -29,15 +29,15 @@ body {
 
 
 #about-us { /*The big black window with about us text */
-  width: 80%;
+  width: 50%;
   height: auto;
   position: absolute;
-  background-color: rgba(1, 1, 1, 0.8); /* last digit let's changing the opacity of the background color */
+  background-color: rgba(19, 0, 209, 0.4); /* last digit let's changing the opacity of the background color */
   top: 16vh;
   border-radius: 10px;
   text-align: center;
   color: rgba(243, 243, 243, 1);
-  left: 10%;
+  left: 25%;
   font-family:Trebuchet MS;
   line-height: 4vw;
   font-size: 2vw;
@@ -45,12 +45,12 @@ body {
 
 
 .hire-a-chef-bttn {
-  background-color: rgba(1, 1, 1, 0.7);
+  background-color: rgba(1, 1, 1, 0.6);
   border-radius: 5px;
   border: 1.5px solid rgba(243, 243, 243, 1);
   display: inline-block;
   cursor: pointer;
-  color: rgba(7, 196, 0, 1);
+  color: rgba(255, 255, 0, 0.9);
   font-family:Trebuchet MS;
   font-size: 2vw;
   font-weight:bold;
@@ -64,8 +64,8 @@ body {
 }
 .hire-a-chef-bttn:hover {
   background-color: rgba(1, 1, 1, 0.3); /* black */
-  color: rgba(7, 196, 0, 1);
-  border: 2px solid rgba(7, 196, 0, 1);
+  color: rgba(255, 255, 0, 0.9);
+  border: 2px solid rgba(255, 255, 0, 0.9);
 }
  &:active {
   position: absolute;
@@ -96,12 +96,12 @@ body {
 }
 
 
-.second-window {
+.first-window {
   width: 100%;
   height: 100vh;
   position: relative;
   top: 45vh;
-  background-color: #fafafa;
+  background-color: rgba(238, 238, 238, 1);
   z-index: -1;
   text-align: center;
 }
@@ -155,13 +155,14 @@ body {
   height: 38vh;
   background-color: transparent;
   left: 60%;
-  top: -82.5vh;
+  top: -85vh;
 }
 
 #photo2 {
   width: 100%;
   height: auto;
   position: relative;
+  border: 1px solid black;
 }
 
 .pic-box-wok {
@@ -177,8 +178,8 @@ body {
   max-height: 40vh;
 }
 
-.fourth-window {
-  background-color: white;
+.second-window {
+  background-color: rgba(213, 205, 255, 1);
   width: 100%;
   height: 100vh;
   position: relative;
@@ -234,7 +235,7 @@ body {
   text-align: center;
   font-size: 200%;
   line-height: 10vh;
-  text-decoration: underline dotted black;
+  text-decoration: underline;
 }
 
 .chefs-content-left {
@@ -260,14 +261,19 @@ body {
 
 ul {
   background: transparent;
-  padding: 20px;
+  /*padding: 20px;*/
 }
 
-ul li {
-  background: rgba(0, 200, 255, 0.15); /*Background color for lists*/
-  margin: 7%;
+.lists li  {
+  background: transparent; /*Background color for lists*/
+  margin: 3vw;
   font-size: 200%;
 }
+
+
+
+
+
 
 .footer {
   width: 100%;
@@ -277,42 +283,56 @@ ul li {
   top: 45vh;
 }
 
-.leave-a-review {
-  width: 20%;
-  height: 15vh;
-  position: relative;
-  background-color: transparent;
-  left: 80%;
-  text-align: center;
-  line-height: 15vh;
-  top: 10vh;
-  font-size: 1.5vw;
+.uli {
+  position: absolute;
+  list-style-type: none;
+  top: 6vh;
+}
+
+.uli li {
+  line-height: 3vw;
 }
 
 #review {
   color: white;
   text-decoration: none;
   font-family:Trebuchet MS;
+  font-size: 1.5vw;
+  margin-left: 3vw;
+  line-height: 0vh;
 }
 
 #review:hover {
   color: grey;
-  text-decoration: none;
-  font-family:Trebuchet MS;
 }
 
 #review:active {
   color: white;
+}
+
+#who {
+  color: white;
   text-decoration: none;
   font-family:Trebuchet MS;
+  font-size: 1.5vw;
+  margin-left: 3vw;
+  line-height: 0vh;
+}
+
+#who:hover {
+  color: grey;
+}
+
+#who:active {
+  color: white;
 }
 
 .made-by {
-  position: relative;
+  position: absolute;
   width: 100%;
   height: auto;
   text-align: center;
-  top: 16.5vh;
+  top: 31.5vh;
   background-color: transparent;
 }
 
