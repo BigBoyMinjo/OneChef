@@ -12,11 +12,9 @@
     <div id="galvene"><div id="logo-box"><a href="index.php"><img src="img/white_logo.png" alt="OneChef logo" id="logo"></div></a></div>
 
     <form action="backend/review_action.php" method="post">
-      <input type="text" id="rev_form" name="rev" value="">
-      <input type="submit" value="Submit">
+      <textarea id="rev_form" name="reviw" rows="8" cols="60" maxlength="500" placeholder="Here you can leave a review of the webpage or/and all the avalaible functions. We will appreaciate all of them! We also are listening to suggestions what to upgrade. :)"></textarea>
+      <input type="submit" value="Submit" id="submit">
     </form>
-
-
 
 
 

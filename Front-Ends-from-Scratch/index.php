@@ -15,26 +15,25 @@
     <div class="index-main-box"> <!-- Main background picture -->
 
       <!--<div class="header"><div id="top"><a href="#" class="become-chef-bttn">Become a chef</a></div></div> --><!-- Header -->
-      <img id="main-background-img-pc" src="img/wheat.jpg" alt="">
-        <div id="about-us"><p id="txt"><span style="color: rgba(255, 255, 0, 0.9);">Hungry</span> for some new cooking <span>knowledge?</span><br> No worries!<br> Just press this button and hire some amazing people to teach you something new about <br> <span style="color: rgba(255, 255, 0, 0.9);">cooking</span> and <span style="color: rgba(255, 255, 0, 0.9);">drinks!</span></p></div>
+      <img id="main-background-img-pc" src="img/fons1.jpg" alt="">
+      <img id="phone" src="img/phone-main.jpg" alt="">
+        <div id="about-us"><p id="txt"><span style="color: rgba(0, 255, 0, 1);"><b>Hungry</b></span> for some new cooking <span>knowledge?</span><br> No worries!<br> Just press this button and hire some amazing people to teach you something <span style="color: rgba(0, 255, 0, 1);"><b>new</b></span> about <br> <span style="color: rgba(0, 255, 0, 1);"><b>cooking</b></span> and <span style="color: rgba(0, 255, 0, 1);"><b>drinks!</b></span></p></div>
         <div class="center"><a href="video-template.php" class="hire-a-chef-bttn">Check out masterclasses</a></div>
     </div>
 
     <div class="first-window"> <!-- About what can you do with a onechef from clients perspective + who we are -->
       <!--<div class="title-2"><h1 id="hire-title">Hire chef's and bartenders from anywhere in the world!</h1></div>-->
-      <div class="title-2"><h1 id="hire-title"><span style="color: rgba(242, 0, 0, 0.8);">Bringing</span> the food community <span style="color: rgba(242, 0, 0, 0.8);">closer</span> than ever before!</h1></div>
-      <div class="p-1">
-        <div class="paragraph"><h2>We are bringing the food community closer than before so everyone can experience food in a closer way than ever before by learning from the chefs around the world.</h2></div>
-        <div class="p-pic"><img id="photo2" src="img/male3.jpeg" alt="Chef"></div> <!-- Pavārs pārliecies pāri pannai -->
-      </div> <!-- zaļais boxs-->
+      <div class="title-1"><span style="color: rgba(242, 0, 0, 0.8);"><b>Bringing</b></span> the food community <span style="color: rgba(242, 0, 0, 0.8);"><b>closer</b></span> than ever before!</div>
+      <div class="content-1">We are bringing the food community closer than before so everyone can experience food in a closer way than ever before by learning from the chefs around the world.</div>
+      <img id="photo2" src="img/male3.jpeg" alt="Chef"> <!-- Pavārs pārliecies pāri pannai -->
     </div>
 
 
     <div class="second-window">
-      <div class="become-title"><h1 id="become-title">Become a chef or a bartender from the comfort of your home!</h1></div>
-      <div class="p-2"> <!-- Inside box -->
-        <div class="chefs-left"><h2 id="centre-fourth-left" >Chefs</h2></div>
-        <div class="bartenders-right"><h2 id="centre-fourth-right" >Bartenders</h2></div>
+      <div class="become-title">Become a chef or a bartender from the comfort of your home!</div>
+
+        <div class="chefs-left">Chefs</div>
+        <div class="bartenders-right">Bartenders</div>
         <div class="chefs-content-left">
           <ul class="lists">
             <li>Earn extra money</li>
@@ -49,7 +48,7 @@
             <li>Get new experiences while working with clients from around the world!</li>
           </ul>
         </div>
-      </div>
+
     </div>
 
 

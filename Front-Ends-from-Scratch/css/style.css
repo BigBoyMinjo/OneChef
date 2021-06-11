@@ -1,3 +1,273 @@
+@media only screen and (max-width: 600px) {  /* Extra small phones */
+
+  body {
+    background-color: grey;
+  }
+
+  .index-main-box{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 86, 255, 0.58);
+  }
+
+
+  #main-background-img-pc { /*First big background image*/
+    display: none;
+  }
+
+  #phone {
+    width: 100%;
+    height: 100vh;
+    max-height: 100vh;
+    position: absolute;
+  }
+
+  /*position: absolute;
+  z-index: -1;*/
+
+
+  #about-us { /*The big black window with about us text */
+    width: 65%;
+    height: auto;
+    position: absolute;
+    background-color: rgba(214, 228, 23, 0.35); /* last digit let's changing the opacity of the background color */
+    top: 10vh;
+    border-radius: 6px;
+    text-align: center;
+    color: rgba(236, 236, 236, 1);
+    left: 17.5%;
+    font-family:Trebuchet MS;
+    line-height: 8vw;
+    font-size: 5vw;
+  }
+
+
+  .hire-a-chef-bttn {
+    background-color: rgba(1, 1, 1, 0.75);
+    border-radius: 5px;
+    border: 1.5px solid rgba(243, 243, 243, 1);
+    display: inline-block;
+    cursor: pointer;
+    color: rgba(0, 255, 0, 0.8);
+    font-family:Trebuchet MS;
+    font-size: 4.5vw;
+    font-weight:bold;
+    /*padding: 7vw 6vw;*/
+    width: 60%;
+    height: 10vh;
+    text-decoration: none;
+    position: absolute;
+    text-align: center;
+    line-height: 10vh;
+    margin-left: 20%;
+    margin-top: 70vh;
+  }
+  .hire-a-chef-bttn:hover {
+    background-color: rgba(1, 1, 1, 0.3); /* black */
+    color: rgba(255, 255, 0, 1);
+    border: 2px solid rgba(255, 255, 0, 0.9);
+  }
+
+
+  .first-window {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: rgba(238, 238, 238, 1);
+    text-align: center;
+  }
+
+  .title-1 {
+    width: 80%;
+    left: 10%;
+    height: 25vh;
+    position: absolute;
+    background-color: transparent;
+    text-align: center;
+    line-height: 5vh;
+    font-family: Trebuchet MS;
+    font-size: 6vw;
+    margin-top: 10vh;
+  }
+
+  .content-1 {
+    width: 70%;
+    height: auto;
+    position: absolute;
+    background-color: transparent;
+    left: 15%;
+    margin-top: 30vh;
+    font-family: Trebuchet MS;
+    font-size: 5vw;
+    line-height: 7vw;
+  }
+
+  #photo2 {
+    width: 60%;
+    height: auto;
+    max-width: 60%;
+    position: absolute;
+    border: 1px solid black;
+    margin-top: 65vh;
+    margin-left: -30%;
+  }
+
+
+
+  .second-window {
+    background-color: rgba(213, 205, 255, 1);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+
+  .become-title {
+    width: 100%;
+    height: 15vh;
+    position: absolute;
+    background-color: transparent;
+    text-align: center;
+    font-family: Trebuchet MS;
+    font-size: 7vw;
+    line-height: 9vw;
+    margin-top: 4vh;
+  }
+
+  .chefs-left {
+    position: absolute;
+    width: 50%;
+    height: 10vh;
+    background-color: transparent;
+    margin-top: 22.5vh;
+    font-size: 8vw;
+    font-family: Trebuchet MS;
+    text-align: center;
+    line-height: 10vh;
+  }
+
+  .bartenders-right {
+    position: absolute;
+    width: 50%;
+    height: 10vh;
+    background-color: transparent;
+    left: 50%;
+    font-family: Trebuchet MS;
+    font-size: 8vw;
+    text-align: center;
+    line-height: 10vh;
+    margin-top: 22.5vh;
+  }
+
+  .chefs-content-left {
+    position: absolute;
+    width: 40%;
+    margin-left: 5%;
+    height: auto;
+    background-color: transparent;
+    margin-top: 35vh;
+    font-size: 3vw;
+    font-family: Trebuchet MS;
+  }
+
+  .bartenders-content-right {
+    position: absolute;
+    width: 50%;
+    height: auto;
+    background-color: transparent;
+    left: 50%;
+    margin-top: 35vh;
+    font-size: 3vw;
+    font-family: Trebuchet MS;
+  }
+
+  .lists {
+    list-style-type: circle;
+  }
+
+  ul {
+    background: transparent;
+    /*padding: 20px;*/
+  }
+
+  .lists li  {
+    background: transparent; /*Background color for lists*/
+    margin: 3vw;
+    font-size: 200%;
+  }
+
+
+
+  .footer {
+    width: 100%;
+    height: 35vh;
+    position: relative;
+    background-color: black;
+  }
+
+  .uli {
+    position: absolute;
+    list-style-type: none;
+    top: 6vh;
+  }
+
+  .uli li {
+    line-height: 10vw;
+  }
+
+  #review {
+    color: white;
+    text-decoration: none;
+    font-family:Trebuchet MS;
+    font-size: 5vw;
+    margin-left: 3vw;
+    line-height: 0vh;
+  }
+
+  #review:hover {
+    color: grey;
+  }
+
+  #review:active {
+    color: white;
+  }
+
+  #who {
+    color: white;
+    text-decoration: none;
+    font-family:Trebuchet MS;
+    font-size: 5vw;
+    margin-left: 3vw;
+  }
+
+  #who:hover {
+    color: grey;
+  }
+
+  #who:active {
+    color: white;
+  }
+
+  .made-by {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    top: 31.5vh;
+    background-color: transparent;
+  }
+
+  #made-by {
+    color: white;
+    font-family:Trebuchet MS;
+    font-size: 4vw;
+  }
+
+}
+
+
+
+
 @media only screen and (min-width: 992px) and (max-width: 1280px) { /* Small laptops/desktops */
 
 }
@@ -14,7 +284,7 @@ body {
 .index-main-box{
   position: relative;
   width: 100%;
-  height: 55vh;
+  height: 100vh;
 }
 
 
@@ -25,6 +295,9 @@ body {
   position: absolute;
   z-index: -1;
 }
+#phone {
+  display: none;
+}
 
 
 
@@ -32,14 +305,14 @@ body {
   width: 50%;
   height: auto;
   position: absolute;
-  background-color: rgba(19, 0, 209, 0.4); /* last digit let's changing the opacity of the background color */
-  top: 16vh;
-  border-radius: 10px;
+  background-color: rgba(214, 228, 23, 0.35); /* last digit let's changing the opacity of the background color */
+  top: 7vh;
+  border-radius: 6px;
   text-align: center;
-  color: rgba(243, 243, 243, 1);
+  color: rgba(236, 236, 236, 1);
   left: 25%;
   font-family:Trebuchet MS;
-  line-height: 4vw;
+  line-height: 3.5vw;
   font-size: 2vw;
 }
 
@@ -50,63 +323,38 @@ body {
   border: 1.5px solid rgba(243, 243, 243, 1);
   display: inline-block;
   cursor: pointer;
-  color: rgba(255, 255, 0, 0.9);
+  color: rgba(0, 255, 0, 0.8);
   font-family:Trebuchet MS;
-  font-size: 2vw;
+  font-size: 1.5vw;
   font-weight:bold;
-  padding: 1.5vw 4vw;
+  /*padding: 1vw 1.5vw;*/
+  width: 20%;
+  height: 7vh;
+  line-height: 7vh;
   text-decoration: none;
   position: absolute;
   text-align: center;
-  margin-left: 35vw;
+  margin-left: 40%;
   max-width: 20%;
-  margin-top: 65vh;
+  margin-top: 47.5vh;
 }
 .hire-a-chef-bttn:hover {
   background-color: rgba(1, 1, 1, 0.3); /* black */
-  color: rgba(255, 255, 0, 0.9);
+  color: rgba(255, 255, 0, 1);
   border: 2px solid rgba(255, 255, 0, 0.9);
 }
- &:active {
-  position: absolute;
-  top:1px;
-}
 
-.become-chef-bttn {
-	background-color: rgba(1, 1, 1, 0.85); /*#d49800*/
-	display:inline-block;
-  border-radius:5px;
-  border: 2px solid orange;
-	cursor:pointer;
-	color: orange;
-	font-family:Trebuchet MS;
-	font-size: 1.2vw;
-	padding:1% 2.5%;
-	text-decoration:none;
-  position: relative;
-  left: 3%;
-  top: 4vh;
-  /*line height*/
-
-}
-.become-chef-bttn:hover {
-	background-color: rgba(1, 1, 1, 0.1);
-  color: rgba(1, 1, 1, 1);
-  border: 2px solid black;
-}
 
 
 .first-window {
   width: 100%;
   height: 100vh;
   position: relative;
-  top: 45vh;
   background-color: rgba(238, 238, 238, 1);
-  z-index: -1;
   text-align: center;
 }
 
-.title-2 {
+.title-1 {
   width: 80%;
   left: 10%;
   height: 25vh;
@@ -114,145 +362,91 @@ body {
   background-color: transparent;
   text-align: center;
   line-height: 25vh;
-  /*top: 10vh;*/
-}
-
-#hire-title {
-  font-size: 200%;
   font-family: Trebuchet MS;
-
+  font-size: 3vw;
 }
 
-.p-1 {
-  width: 70%;
-  height: 75vh;
-  position: relative;
+.content-1 {
+  width: 50%;
+  height: auto;
+  position: absolute;
   background-color: transparent;
-  left: 15%;
-}
-
-.paragraph {
-  height: 100vh;
-  width: 60%;
-  background-color: transparent;
-  position: relative;
-  text-align: center;
-  background-color: transparent;
-}
-
-.paragraph h2 {
-  top: 26%;
-  text-align: center;
-  line-height: 120%;
-  position: relative;
-  font-size: 150%;
+  margin-left: 25%;
   font-family: Trebuchet MS;
-}
-
-.p-pic {
-  position: relative;
-  width: 40%;
-  height: 38vh;
-  background-color: transparent;
-  left: 60%;
-  top: -85vh;
+  font-size: 2vw;
+  line-height: 3vw;
 }
 
 #photo2 {
-  width: 100%;
+  width: 30%;
   height: auto;
-  position: relative;
+  max-width: 30%;
+  position: absolute;
   border: 1px solid black;
+  margin-left: -15%;
+  margin-top: 30vh;
 }
 
-.pic-box-wok {
-  position: relative;
-  width: 100%;
-  height: 40vh;
-  background-color: transparent
-}
 
-#wok-photo {
-  width: 100%;
-  height: auto;
-  max-height: 40vh;
-}
 
 .second-window {
   background-color: rgba(213, 205, 255, 1);
   width: 100%;
   height: 100vh;
   position: relative;
-  top: 45vh;
 }
 
 .become-title {
   width: 100%;
-  height: 25vh;
-  position: relative;
+  height: 20vh;
+  position: absolute;
   background-color: transparent;
   text-align: center;
-  line-height: 30vh;
-}
-
-#become-title {
-  font-size: 210%;
   font-family: Trebuchet MS;
-}
-
-.p-2 {
-  width: 70%;
-  height: 75vh;
-  position: relative;
-  background-color: transparent;
-  left: 15%;
+  font-size: 2.5vw;
+  line-height: 25vh;
 }
 
 .chefs-left {
-  position: relative;
+  position: absolute;
   width: 50%;
   height: 10vh;
   background-color: transparent;
+  text-align: center;
+  font-family: Trebuchet MS;
+  font-size: 3vw;
+  line-height: 10vh;
+  margin-top: 25vh;
 }
 
 .bartenders-right {
-  position: relative;
+  position: absolute;
   width: 50%;
   height: 10vh;
   background-color: transparent;
-  left: 50%;
-  top: -10vh;
-}
-
-#centre-fourth-left { /* Nocentrē uzrakstus chef un bartender iekš safiem boxiem */
+  margin-left: 50%;
   text-align: center;
-  font-size: 200%;
+  font-family: Trebuchet MS;
+  font-size: 3vw;
   line-height: 10vh;
-  text-decoration: underline;
-}
-
-#centre-fourth-right { /* Nocentrē uzrakstus chef un bartender iekš safiem boxiem */
-  text-align: center;
-  font-size: 200%;
-  line-height: 10vh;
-  text-decoration: underline;
+  margin-top: 25vh;
 }
 
 .chefs-content-left {
-  position: relative;
+  position: absolute;
   width: 50%;
-  height: 65vh;
+  height: auto;
   background-color: transparent;
-  top: -10vh;
+  margin-top: 40vh;
 }
 
 .bartenders-content-right {
-  position: relative;
+  position: absolute;
   width: 50%;
-  height: 65vh;
+  height: auto;
   background-color: transparent;
-  top: -75vh;
   left: 50%;
+  margin-top: 40vh;
 }
 
 .lists {
@@ -272,15 +466,11 @@ ul {
 
 
 
-
-
-
 .footer {
   width: 100%;
   height: 35vh;
   position: relative;
   background-color: black;
-  top: 45vh;
 }
 
 .uli {
@@ -340,12 +530,6 @@ ul {
   color: white;
   font-family:Trebuchet MS;
   font-size: 1.4vw;
-}
-
-
-
-.pic-box-wok {
-  display: none;
 }
 
 }

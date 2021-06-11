@@ -30,15 +30,32 @@
 
 
 
-input[type=text] {
+#rev_form {
   width: 40%;
   height: 30vh;
-  border: 2px solid rgba(186, 186, 186, 1);
+  border: 3px solid rgba(186, 186, 186, 1);
   box-sizing: border-box;
-  padding: 0 0;
-  font-size: 1vw;
+  font-size: 1.2vw;
+  margin-left: 30%;
+  position: relative;
+  top: 10vh;
 }
 
+#submit {
+  width: 10%;
+  height: 6vh;
+  font-size: 1.5vw;
+  cursor: pointer;
+  background-color: rgba(39, 116, 101, 0.5);
+  font-family:Trebuchet MS;
+  position: relative;
+  top: 20vh;
+  left: -25%;
+}
+
+#submit:hover {
+  background-color: rgba(39, 116, 101, 0.3);
+}
 
 
 
