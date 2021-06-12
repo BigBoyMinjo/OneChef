@@ -58,7 +58,7 @@
         <li><a id="review" href="review.php">Leave a review</a></li>
         <li><a id="who" href="who.html" title="Find out">Who are we?</a></li>
       </ul>
-      <div class="made-by"><h2 id="made-by" title="Did you know that Latvia has a whopping 7000 breeds of stork!">Made by OneChef from Latvia</h2></div>
+      <div class="made-by" title="Did you know that Latvia has a whopping 7000 breeds of stork!">Made by OneChef from Latvia</div>
     </div>
 
     </body>
